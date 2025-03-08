@@ -6,17 +6,57 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+int main()
 
+{
+
+    char nome[] = "mg1";
+    int population = 1;
+    float area = 1;
+    float pib = 1;
+    int pontosTuristicos = 1;
+    
+    printf("digite a população da cidade mg1: ");
+    scanf ("%d", &population);
+    
+    printf("digite a area da cidade mg1: ");
+    scanf ("%f", &area);
+    
+    printf("digite a pib da cidade mg1: ");
+    scanf ("%f", &pib);
+    
+    printf("digite a pontos turísticos da cidade mg1: ");
+    scanf ("%d", &pontosTuristicos);
+    
+    char nome2[] = "mg2";
+    int population2 = 1;
+    float area2 = 1;
+    float pib2 = 1;
+    int pontosTuristicos2 = 1;
+    
+    printf("digite a população da cidade mg2: ");
+    scanf ("%d", &population2);
+    
+    printf("digite a area da cidade mg2: ");
+    scanf ("%f", &area2);
+    
+    printf("digite a pib da cidade mg2: ");
+    scanf ("%f", &pib2);
+    
+    printf("digite a pontos turísticos da cidade mg2: ");
+    scanf ("%d", &pontosTuristicos2);
+    
+    printf("\n mg1");
+    printf("\n população :%d ", population);
+    printf("\n área : %.3f ", area);
+    printf("\n pib : %.1f ", pib);
+    printf("\n pontos turísticos: %d \n", pontosTuristicos);
+    
+    printf("\n mg2");
+    printf("\n população: %d ", population2);
+    printf("\n area: %.3f ", area2);
+    printf("\n pib: %.1f ", pib2);
+    printf("\n pontos turísticos: %d \n", pontosTuristicos2);
+    
     return 0;
 }
